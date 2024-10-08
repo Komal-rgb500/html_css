@@ -1,0 +1,251 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+#top{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(248, 144, 8);
+
+}
+
+#top1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color:rgb(138, 47, 47);
+
+}
+
+#navbar img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 3px;
+    margin: auto;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 14vh;
+    width: 100vw;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border:2px solid black;
+     border-radius: 15px;
+
+
+}
+#navcontant{
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+ul li a {
+    padding: 1px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+
+ul li a:hover {
+    background-color: red;
+    border-radius: 10px;
+}
+
+
+.background-image {
+    width: 100vw;
+    height: auto;
+    filter: blur(100px);
+    
+}
+
+.contactus{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#container1{
+    
+   
+    display: flex;
+    flex-direction: row;
+}
+
+#row1 {
+    color: black;
+    font-weight: bold;
+   font-size: 30px;
+    text-align: center;
+    margin-top: 35px;
+   
+     
+   
+}
+#container1{
+
+
+
+background: url("https://media.geeksforgeeks.org/wp-content/uploads/20240711124309/8513909_3941598-(2).jpg") no-repeat center center/cover;
+border-radius:0px 0px 0px 200px;
+}
+
+
+
+#container3{
+   
+   
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-right: 400px;
+    height: 500px;
+    width: 70%;
+    padding: 50px;
+    justify-content: space-between;
+
+    
+
+
+}
+
+#row2{
+  
+   
+ 
+    height: 300px;
+    width: 500px;
+    background: url('https://media.geeksforgeeks.org/wp-content/uploads/20240711123257/jpeg-optimizer_2151336570.jpg') no-repeat center center/cover;
+    border-radius: 20px;
+    margin-top: 30px;
+  
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    
+
+
+
+}
+
+#row3{
+    background: url('https://media.geeksforgeeks.org/wp-content/uploads/20240711123256/jpeg-optimizer_6656747_21351.jpg') no-repeat center center/cover;
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+
+
+}
+
+
+#container4{
+   
+   
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-right: 400px;
+   
+   margin-bottom: 200px;
+    /* padding: 50px; */
+    justify-content: space-between;
+
+
+}
+#row4{
+  
+   
+ 
+    height: 300px;
+    width: 900px;
+    background: url('https://media.geeksforgeeks.org/wp-content/uploads/20240711123258/jpeg-optimizer_various-meals-western-food-platter-dark-background.jpg') no-repeat center center/cover;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+  
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+
+   
+    
+}
+
+#row5{
+  
+   
+ 
+    height: 300px;
+    width: 900px;
+    background: url('https://media.geeksforgeeks.org/wp-content/uploads/20240711123257/jpeg-optimizer_2151182491.jpg') no-repeat center center/cover;
+    border-radius: 20px;
+    margin-top: 30px;
+  
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    margin-left: 300px;
+    
+}
+
+#row6{
+  
+   
+ 
+    height: auto;
+    width: 900px;
+    background: url('https://media.geeksforgeeks.org/wp-content/uploads/20240711123255/jpeg-optimizer_4744.jpg') no-repeat center center/cover;
+    border-radius: 20px;
+    margin-top: 30px;
+  
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+   margin-left: 500px;
+    
+}
+
+#top3{
+    padding-left: 40%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+}
+
+.btn{
+    height: 50px;
+    width: 6s0px;
+    margin-top: 50%;
+    margin-left: 40%;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.btn:hover{
+    background-color: red;
+}
+
+
+

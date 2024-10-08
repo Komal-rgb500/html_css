@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
-   <title>  Survey form</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
 <style>
 
    
@@ -13,11 +14,12 @@ body{
 
 }
 
-form {
+#form {
             background-color: #fff;
             max-width: 500px;
             margin: 50px auto;
-           <!--        padding: 30px 20px;  --> 
+            height: 800px;
+           
            box-shadow: 2px,5px,10px,rgba(0, 0, 0, 0.5);
            display: block;
            border-radius: 30px;
@@ -30,6 +32,7 @@ form {
     box-shadow: 2vh;
     text-align: left;
     display: block;
+    font-size: 20px;
 }
 
 #form-control{
@@ -37,6 +40,7 @@ form {
    text-align: left;
    margin: 50px;
    padding: 30px;
+   
 
 
 }
@@ -47,6 +51,16 @@ form {
    display: inline-block;
    
 }
+#btn {
+   background-color: rgb(105, 124, 105);
+
+  
+   
+
+   
+
+}
+
 
 
 
@@ -57,40 +71,40 @@ form {
 
 </head>
 <body> 
-   <h1>survey form</h1>
+   <h1>Survey Form</h1>
      <form id="form">
 
       <div class="form-control">
      <label for="name" id="label-name">
-      name
+      Name
      </label>
      <input type="text" id="label-name" placeholder="enter your name"/>
    </div>
 
    <div class="form-control">
-     <label for="email" id="label-email">email</label>
+     <label for="Email" id="label-email">Email</label>
      <input type="email" id="label-email" placeholder="enter your email"/>
    </div>
 
    <div class="form-control">
-      <label for="age" id="label-age">age</label>
+      <label for="age" id="label-age">Age</label>
       <input type="age" id="label-age" placeholder="enter your age"/>
 
    </div>
 
      <div class="form-control">
-     <label for="role" id="label-role">describes you</label>
+     <label for="role" id="label-role">Which Option Best Describes You</label>
      <select name="role" id="role">
-      <option for="role" >student</option>
-      <option for="role" >inter</option>
-      <option for="role" >professional</option>
-      <option for="role" >other</option>
+      <option for="role" >Student</option>
+      <option for="role" >Intern</option>
+      <option for="role" >Professional</option>
+      <option for="role" >Other</option>
      </select>
 
    </div>
 
    <div class="form-control"> 
-      <label> would you recommended the website to visit</label><br></br>
+      <label> Would You Recommended the Website to visit</label><br></br>
 
       <label for="recommended-1">
       <input type="radio" name="recommed">yes
@@ -125,7 +139,14 @@ form {
    
 </div>
 
-<input type="button" value="submit"></input>
+
+
+
+
+
+
+
+<input type="button" id=btn value="submit"></input>
 
    </form>
 

@@ -4,6 +4,7 @@ nav#navbar a{
     color: blue;
     border: 1px solid #352424;
     margin: 10px;
+    background-color: rgb(171, 206, 236);
     
 }
 div.main-body {
@@ -11,6 +12,7 @@ div.main-body {
     grid-template-columns: minmax(300px, auto)1fr;
     grid-template-areas: "navbar mainContent";
     grid-gap: 20px; 
+   
 }
 
 header{
@@ -19,6 +21,3 @@ header{
     font-weight: bold;
 }
 
-nav a:hover {
-    background-color: blueviolet;
-}
